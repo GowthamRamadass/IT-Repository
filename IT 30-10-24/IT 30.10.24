@@ -1,0 +1,4 @@
+Started to create a vpc model
+created subnet inside the vpc
+configured route table with subnet
+created internet gateway to provide internet to vpc
