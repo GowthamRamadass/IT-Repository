@@ -1,0 +1,3 @@
+I created a lambda function in aws to delete the snapshots 
+lambda function helps to delete the snapshots if the volume is not available which provides that particular snapshots
+To do this give snapshots, ec2  and volume list permission and snapshots delete permission to that function and than write a code to delete snapshot 
