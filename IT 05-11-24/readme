@@ -1,0 +1,3 @@
+cloud Formation is similar to terraform which helps to write a code to create vpc and services. This method is fast when compare creating a vpc manually.
+There is one option in cloud formation which helps to visually design the architecture via 2d format
+In this this I tried to create one small web in cloud formation with the help of sample template
