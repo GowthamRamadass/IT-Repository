@@ -1,1 +1,18 @@
+create vpc
+    cidr range
+subnet in vpc
+internet gateway -> to give internet to vpc
+attach IG to vpc
+create route table(RT) for subnet
+    configure route table with subnet
+    connect route table with IG
+	(give connection for particular RT only which requires internet)
+create security group for subnets
+SG -> helps to configure how to connect with instance and how to send responses from instance
+     configure SG by allow anyone in public subnet
+     configure private subnet SG as give access to allow private subnet only for instance present           
+              
+public subnet(either by using public subnet SG id or ip address range) 
 
+
+Steps to create vpc for two-tier architecture
