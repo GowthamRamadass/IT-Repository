@@ -1,0 +1,6 @@
+Created a small project with help of services Lambda, amplify, API gateway, dynamoDB
+
+created the small website which calculates power of value which is get from user
+website is hosted with help of amplify and the backend process which caluculating the power is done by lambda.
+API gateway will helps to trigger Lambda whenever user gives input.
+Finally the output is stored in dynamoDB.
