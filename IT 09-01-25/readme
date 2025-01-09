@@ -1,0 +1,8 @@
+A website hosted by s3 which collects the user filled student details in dynamodb and shows the collected student details.
+
+create a s3 bucket and enable web hosting. Then uploat the required web files in it.
+create dynamoDB to store data
+create lambda function to add the data in dynamodb
+create lambda function to get data from dynamodb
+create roles accordingly
+deploy an api gateway to trigger lambda whenever user run the website
